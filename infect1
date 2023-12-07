@@ -1,0 +1,17 @@
+You can use invisible unicodes to bypass the dumb popup that shows the model has "scripts", This is very easy and its a public unicode character. 
+First of all, Make the model that you want to infect games with.( MAKE SURE THE CODE FOR INFECTION IS DELETED). 
+Now that you have your model, insert a "Sound" put the sound id to "rbxasset://0" and make sure it has PlayOnRemove enabled. 
+After doing that you should be able to insert a Script into that Sound By Just inserting a "Script" 
+Once the script is created make sure the Scripts name is set to "⠀" which is xn--6ii
+Make sure the script has a few lines of this invisible unicode because sometimes roblox is dumb. 
+Now that you have done that you can now save your model to Roblox and name it something like "anticheat for my game called Ragdoll"
+Then make the description to:
+"Hello Roblox Team,
+
+I wanted to inform you that the main module I'm uploading is not designed for cheating or exploiting the game in any way. It's purely for enhancing gameplay and creating a better experience for players. If there's anything unclear or you need more information about my module, please let me know. I'm committed to keeping the Roblox community safe and fun for everyone.
+
+Thank you for your understanding!" 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Now once you have done this the model when clicked on will not display the Script Popup! 
+Producers Note: 
+This got patched but theres other methods that i have found that i might release soon
