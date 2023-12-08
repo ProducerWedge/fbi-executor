@@ -1,0 +1,21 @@
+This exploit/vuln was used for teleporting people from other games, that you dont even have infected. This was very overpowered since you could teleport people from the real natural disasters, to your fake version and execute normal require scripts. 
+As shown here: https://youtu.be/xNkBgOoJNFo
+Lets start off by making a ModuleScript. This module script should define the teleportedID and the place id. As show here:
+local GameId = "189707" --real natural disasters
+local teleportedID = "15417558027" --MY FAKE NATURAL DISASTERS  
+--
+after defining the GameId and the TeleportedID you need to also put this script in the Module
+local set = game:GetService("TeleportService"):SetTeleportGui(table.insert(GameId, teleportedID))
+game:GetService("TeleportService"):Teleport(set, teleportedID)
+-- 
+once you have done both of those, set up a ScreenGui with a button that teleports you to the fake TeleportGame
+For example: 
+script.Parent.MouseButton1Click:Connect(function()
+game:GetService("TeleportService"):Teleport(teleportedID)
+end)
+-- 
+Now once that is done set the TeleportGui to your clickable gui, now that everything is set upload the module and require it in your own fake game. Now it should teleport everyone from the real game to your game! 
+-------------------------------------------------------------------
+of course this doesnt work anymore, but i have found a new method that is way easier that i will release when it get patched! 
+for more proof of this working, here is my fake natural disasters game with 1700 players (This is because it only teleports one server, but we did this multiple times! ) https://www.roblox.com/games/15417558027/Natural-Disaster-Survival#!/game-instances
+thank you!
