@@ -1,0 +1,10 @@
+This vulv used to work and it basically made you have view access to any game, sadly there was no way to have edit access. 
+This was used for many games such as the old meepcity, deepwoken, etc. This caused many games to be uncopylocked with the scripts. 
+This exploit was very hard to do. since the owner had to leak their JobId for their Roblox Studio game when they team test. You can of course ask the owner to do this. 
+While the owner is sharing their screen make them run this script in their server console
+print(game.JobId) -- simple JobId logger 
+once they do this it should output a random number/letter thingy. 
+Now, You need to enable 3rdPartyTeleports in your own game, then teleport to their JobId and GameId in your Roblox Studio. (Roblox removed joining games in Roblox studio around 12/23/2022)
+Once done, you have access to the explorer and you could save the game and change values, of course since you are in team test it wont change the actual game. 
+----
+This got patched around 12/23/2022 and there has been no found exploit close to this one. 
